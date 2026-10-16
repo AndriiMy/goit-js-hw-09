@@ -1,10 +1,19 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
+/**
+  |============================
+  | include css partials with
+  | default @import url()
+  |============================
+*/
+/* Common styles */
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./container.css');
+@import url('./animations.css');
 
-body {
-  margin: 0;
-  font-family: system-ui, sans-serif;
-}
+/* Sections style */
+@import url('./header.css');
+@import url('./vite-promo.css');
+@import url('./badges.css');
+@import url('./back-link.css');
+@import url('./gallery.css');
+@import url('./form.css');
